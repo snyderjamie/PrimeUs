@@ -8,7 +8,7 @@
 # are hacking on this code and want to run linters and tests
 
 # install flake8 from master to avoid pycodestyle bug
-git+https://gitlab.com/pycqa/flake8#egg=flake8
+flake8
 pytest
 pytest-cov
 pytest-env
