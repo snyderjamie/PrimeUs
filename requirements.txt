@@ -1,0 +1,16 @@
+# These are the modules that need to be included in the application's 
+# requirements.txt file if this module is being installed directly from
+# github (this type of install does not automatically install dependencies)
+
+### ! no external modeules needed for this application
+
+# These are 'helper' modules which are only required if you
+# are hacking on this code and want to run linters and tests
+
+# install flake8 from master to avoid pycodestyle bug
+git+https://gitlab.com/pycqa/flake8#egg=flake8
+pytest
+pytest-cov
+pytest-env
+pytest-flake8
+pytest-mock
