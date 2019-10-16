@@ -9,7 +9,7 @@
 
 # install flake8 from master to avoid pycodestyle bug
 flake8
-pytest
+pytest>=4.2.0
 pytest-cov
 pytest-env
 pytest-flake8
