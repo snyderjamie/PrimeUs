@@ -5,7 +5,7 @@ from PrimeUs.Primes import Primes
 
 def test_init():
     primes = Primes()
-    assert type(primes) == Primes
+    assert type(primes) is Primes
 
 
 def test_prime_check():
